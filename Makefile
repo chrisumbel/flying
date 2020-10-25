@@ -8,6 +8,7 @@ DATA_DIRECTORY = '"/tmp"'
 ### for debugging, there might be the additional flags -DDEBUG and -DSTATISTICS
 ### the -O2 option doesn't work correct on gcc-2.7.0
 CXX			= g++ -Wall -fstrength-reduce -fpcc-struct-return  -fpermissive  -Wno-narrowing
+# ^^^ NetBSD will require: -I /usr/X11R7/include -L /usr/X11R7/lib
 CXXFLAGS	   = -O1 -lstdc++ -lsupc++  -std=c++11
 #CXX			= CC
 #CXXFLAGS	= -O
