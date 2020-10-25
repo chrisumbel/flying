@@ -1,3 +1,12 @@
+This is a slight modernization of Helmut Hoenig's "Flying" game collection for
+X11.
+
+The Makefile has been altered per the modern requirements for gcc and the C
+code has been modified to include explicit types for the most part. The
+-fpermissive  -Wno-narrowing GCC flags have been added, but it's possible that
+as code modernization/clean-up continues those may be able to go away.
+
+------------------------------------------------------------------------------
      ______      _
     / __/ /_  __(_)___  ____ _
    / /_/ / / / / / __ \/ __ `/            original source available at
